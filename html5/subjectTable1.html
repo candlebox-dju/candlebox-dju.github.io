@@ -1,0 +1,99 @@
+<!doctype html>
+<!--subjectTable1.html -->
+<html lang="ko">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <style>
+      table, thead, tbody, tfoot, tr, th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+      }
+
+      .subject1 {
+        background-color: rgb(209,213,216);
+      }
+
+      .subject2 {
+        background-color: rgb(163,143,132);
+      }
+
+      .subject3 {
+        background-color: rgb(26,188,156);
+        ;
+      }
+
+      .subject4 {
+        background-color: rgb(251,160,38);
+      }
+
+      .subject5 {
+        background-color: rgb(84,172,210);
+      }
+
+      .subject6 {
+        background-color: rgb(167,112,200);
+      }
+      
+      .subject7 {
+        background-color: rgb(247,218,100);
+      }
+      
+      .subject8 {
+        background-color: rgb(235,107,86);
+      }
+
+      th,
+      td {
+        width: 100px;
+        height: 50px;
+      }
+
+    </style>
+    <title>HTML5 시간표</title>
+  </head>
+
+  <body>
+    <table>
+    <caption>&lt;표1&gt; <b>2-1 시간표</b></caption>
+      <thead>
+        <tr>
+          <th>시간</th> <th>월</th> <th>화</th> <th>수</th> <th>목</th> <th>금</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1교시</td> <td rowspan="2" class="subject1">오토마타와 응용</td> <td rowspan="2" class="subject2">자료구조 및 실습</td> <td></td> <td></td> <td></td>
+        </tr>
+        <tr>
+          <td>2교시</td> <td></td> <td class="subject1">오토마타와 응용</td> <td></td>
+        </tr>
+        <tr>
+          <td>3교시</td> <td rowspan="2" class="subject3">디지털 논리회로</td> <td></td> <td rowspan="2" class="subject2">자료구조 및 실습</td> <td rowspan="2" class="subject8">Challenge English</td> <td></td>
+        </tr>
+        <tr>
+          <td>4교시</td> <td></td> <td></td>
+        </tr>
+        <tr>
+          <td>5교시</td> <td></td> <td class="subject3">디지털 논리회로</td> <td rowspan="4" class="subject4">C++ 프로그래밍</td> <td rowspan="3" class="subject5">인터넷 응용</td> <td></td>
+        </tr>
+        <tr>
+          <td>6교시</td> <td></td> <td></td> <td></td>
+        </tr>
+        <tr>
+          <td>7교시</td> <td rowspan="7" class="subject6">유클리드 기하학</td> <td rowspan="2" class="subject7">영어회화2</td> <td></td>
+        </tr>
+        <tr>
+          <td>8교시</td> <td></td> <td></td>
+        </tr>
+        <tr>
+          <td>9교시</td> <td></td> <td></td> <td></td> <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+
+</html>
