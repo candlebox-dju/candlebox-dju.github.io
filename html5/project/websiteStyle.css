@@ -8,7 +8,7 @@
 .banner li {border:2px solid black; float:right; padding:10px; margin-bottom:10px; box-shadow:O 1px 3px gray;}
 .banner li img {width:30%; vertical-align:middle;}
 body {background-color: #F9F5E6;}
-section {display: inline-block;}
+section {display: inline-block; margin:10px;}
 /* for mobile: */
 [class*="col-"] { width: 100%; }
 @media only screen and (min-width: 600px) {
